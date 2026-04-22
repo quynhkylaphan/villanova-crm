@@ -2,6 +2,7 @@ import { useState } from "react";
 import { getAdvisorById, buildAcademicContext } from "../data/students";
 import { C } from "../styles/colors";
 import CourseDatabase from "./CourseDatabase";
+import { askAI } from "../utils/ai";
 
 function KPIBar({ students }) {
   const allQuestions = students.flatMap((s) => s.questions);

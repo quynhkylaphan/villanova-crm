@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { getStudentById, getAdvisorById, STUDENTS, buildAcademicContext } from "../data/students";
 import { C } from "../styles/colors";
-import { askAI } from "../App";
+import { askAI } from "../utils/ai";
 
 function renderMessage(text) {
   return (
