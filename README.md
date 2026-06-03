@@ -5,10 +5,6 @@ A two-sided AI-powered web application that modernizes the academic advising pro
 **Live Demo:** [villanova-crm.vercel.app](https://villanova-crm.vercel.app)
 
 **Course:** MIS 3050 — CRM and Data Analytics  
-**Team:** Kyla Phan, Kate Van Horn, Winona Victoria  
-**Date:** April 2026
-
----
 
 ## What It Does
 
