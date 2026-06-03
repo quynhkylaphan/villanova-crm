@@ -4,22 +4,30 @@ A two-sided AI-powered web application that modernizes the academic advising pro
 
 **Live Demo:** [villanova-crm.vercel.app](https://villanova-crm.vercel.app)
 
-**Course:** MIS 3050 — CRM and Data Analytics  
+**Course:** MIS 3050 - CRM and Data Analytics  
+
+## Problem Statement
+
+Academic advising at universities is a high-volume, relationship-driven service that has not kept pace with growing student caseloads. Advisors are often reduced to answering repetitive factual questions — course prerequisites, degree requirements, registration eligibility — rather than providing meaningful guidance to students who need real intervention.
+
+At Villanova, advisors manage hundreds of students at a time. Without a centralized system, they manually check individual records, track unanswered emails, and have no automated way to identify at-risk students before problems escalate. Students, on the other hand, wait 24–48 hours for responses to questions that could be answered instantly.
+
+This project addresses that gap by building an AI-powered CRM that automates routine question handling, proactively monitors student records for issues, and gives students 24/7 access to personalized academic guidance — freeing advisors to focus on the students who need them most.
 
 ## What It Does
 
 **Advisor Side**
-- Live KPI dashboard — open questions, at-risk students, AI auto-resolution rate, registration readiness, GPA distribution, class year breakdown
+- Live KPI dashboard - open questions, at-risk students, AI auto-resolution rate, registration readiness, GPA distribution, class year breakdown
 - Student record viewer with degree progress, enrolled courses, and active flags
-- AI Assistant tab — ask natural language questions about any student's record
-- Agent Alerts — proactive AI monitoring that surfaces critical, high, and medium priority issues automatically
-- Approve & Send workflow — review and approve AI-drafted answers with one click, updates student portal in real time
-- Course Database — 54 real Villanova courses from the 2025–2026 catalog with search and filters
+- AI Assistant tab - ask natural language questions about any student's record
+- Agent Alerts - proactive AI monitoring that surfaces critical, high, and medium priority issues automatically
+- Approve & Send workflow - review and approve AI-drafted answers with one click, updates student portal in real time
+- Course Database - 54 real Villanova courses from the 2025–2026 catalog with search and filters
 
 **Student Side**
 - Degree progress tracker with credit count and GPA
-- AI chat agent — instant answers to course and requirement questions
-- My Questions tab — track submitted questions and advisor responses
+- AI chat agent - instant answers to course and requirement questions
+- My Questions tab - track submitted questions and advisor responses
 
 ---
 
@@ -89,18 +97,18 @@ src/
 
 ## Key Features
 
-**AI Auto-Resolution Rate** — tracks what percentage of student questions are handled by the AI with high confidence vs escalated to an advisor. Updates in real time as advisors approve questions.
+**AI Auto-Resolution Rate** - tracks what percentage of student questions are handled by the AI with high confidence vs escalated to an advisor. Updates in real time as advisors approve questions.
 
-**Approve & Send Workflow** — when a student submits a question, the AI generates a draft answer with a confidence score. The advisor can edit the draft, add a private note, and approve it in one click. The answer immediately appears in the student portal.
+**Approve & Send Workflow** - when a student submits a question, the AI generates a draft answer with a confidence score. The advisor can edit the draft, add a private note, and approve it in one click. The answer immediately appears in the student portal.
 
-**Agent Alerts** — the system continuously monitors all student records and automatically surfaces issues: high-risk students, long gaps since advisor contact, and pending unanswered questions — without the advisor needing to manually check.
+**Agent Alerts** - the system continuously monitors all student records and automatically surfaces issues: high-risk students, long gaps since advisor contact, and pending unanswered questions - without the advisor needing to manually check.
 
-**Real Villanova Data** — all course descriptions, prerequisites, and semester availability are sourced from the official Villanova 2025–2026 Undergraduate Catalog.
+**Real Villanova Data** - all course descriptions, prerequisites, and semester availability are sourced from the official Villanova 2025–2026 Undergraduate Catalog.
 
 ---
 
 ## Notes
 
-- No backend or database — all state is managed in React memory and resets each session
+- No backend or database - all state is managed in React memory and resets each session
 - The `.env` file containing the Groq API key is excluded from this repo — you must add your own
 - For a production system, session state would be replaced with a real database and authentication layer
