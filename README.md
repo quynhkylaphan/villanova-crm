@@ -8,11 +8,13 @@ A two-sided AI-powered web application that modernizes the academic advising pro
 
 ## Problem Statement
 
-Academic advising at universities is a high-volume, relationship-driven service that has not kept pace with growing student caseloads. Advisors are often reduced to answering repetitive factual questions — course prerequisites, degree requirements, registration eligibility — rather than providing meaningful guidance to students who need real intervention.
+Academic advising at universities is a high-volume, relationship-driven service that has not kept pace with growing student caseloads. Advisors are often reduced to answering repetitive factual questions - course prerequisites, degree requirements, registration eligibility - rather than providing meaningful guidance to students who need real intervention.
 
 At Villanova, advisors manage hundreds of students at a time. Without a centralized system, they manually check individual records, track unanswered emails, and have no automated way to identify at-risk students before problems escalate. Students, on the other hand, wait 24–48 hours for responses to questions that could be answered instantly.
 
-This project addresses that gap by building an AI-powered CRM that automates routine question handling, proactively monitors student records for issues, and gives students 24/7 access to personalized academic guidance — freeing advisors to focus on the students who need them most.
+This project addresses that gap by building an AI-powered CRM that automates routine question handling, proactively monitors student records for issues, and gives students 24/7 access to personalized academic guidance, freeing advisors to focus on the students who need them most.
+
+---
 
 ## What It Does
 
@@ -93,6 +95,7 @@ src/
 │   └── ai.js                # Groq API helper function
 └── styles/
 └── colors.js            # Shared color constants
+
 ---
 
 ## Key Features
