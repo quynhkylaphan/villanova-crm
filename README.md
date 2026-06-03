@@ -1,4 +1,4 @@
-# Villanova Academic Advising CRM — AI Agent
+# Villanova Academic Advising CRM - AI Agent
 
 A two-sided AI-powered web application that modernizes the academic advising process at Villanova University.
 
