@@ -41,7 +41,7 @@ A two-sided AI-powered web application that modernizes the academic advising pro
 ### Install and Run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/villanova-crm.git
+git clone https://github.com/quynhkylaphan/villanova-crm.git
 cd villanova-crm
 npm install
 ```
